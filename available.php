@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-	$database_host = "39.46.198.172";
+	$database_host = "39.46.198.172\MSSQLEXPRESS";
 	$database_user = "DESKTOP-IPPHTT1\cp";
 	$database_pass = "";
 	$database_name = "CAR_RENTAL";
