@@ -5,7 +5,7 @@
 	$database_host = "localhost";
 	$database_user = "rajat";
 	$database_pass = "pizza";
-	$database_name = "carrental";
+	$database_name = "DESKTOP-IPPHTT1\MSSQLEXPRESS";
 	$connection = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
 	if(mysqli_connect_errno()){
 		die("Failed connecting to MySQL database. Invalid credentials" . mysqli_connect_error(). "(" .mysqli_connect_errno(). ")" ); }
