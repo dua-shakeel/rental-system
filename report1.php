@@ -2,10 +2,10 @@
 <html>
 <body>
 <?php
-	$database_host = "localhost";
-	$database_user = "rajat";
-	$database_pass = "pizza";
-	$database_name = "carrental";
+	$database_host = "39.46.198.172";
+	$database_user = "DESKTOP-IPPHTT1\cp";
+	$database_pass = "";
+	$database_name = "CAR_RENTAL";
 	$connection = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
 	if(mysqli_connect_errno()){
 		die("Failed connecting to MySQL database. Invalid credentials" . mysqli_connect_error(). "(" .mysqli_connect_errno(). ")" ); }
