@@ -2,8 +2,8 @@
 <html>
 <body>
 <?php
-	$database_host = "DESKTOP-IPPHTT1\MSSQLEXPRESS";
-	$database_user = "rajat";
+	$database_host = "localhost";
+	$database_user = "DESKTOP-IPPHTT1\MSSQLEXPRESS";
 	$database_pass = "pizza";
 	$database_name = "carrental";
 	$connection = mysqli_connect($database_host, $database_user, $database_pass, $database_name);
